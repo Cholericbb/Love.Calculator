@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f0e4e4;
+}
+
+/* Advertisement Banner Styles */
+.ad-banner {
+    width: 100%;
+    height: 60px;
+    background-color: #ffdede;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #e91e63;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Input and Button Styles */
+.input-container {
+    margin-bottom: 15px;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    border: 2px solid #e91e63;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e91e63;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c2185b;
+}
+
+/* Result and Love Meter Styles */
+#result-container {
+    margin-top: 20px;
+    display: none;
+}
+
+#meter-container {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
+    position: relative;
+}
+
+#love-meter {
+    height: 100%;
+    width: 0;
+    background-color: #ff4081;
+    border-radius: 10px;
+    transition: width 2s;
+}
+
+#result,
+#message {
+    font-size: 20px;
+    color: #e91e63;
+}
+
+#reset {
+    display: none;
+    margin-top: 15px;
+}
+
+/* Premium Content Styles */
+.premium-content {
+    margin-top: 30px;
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #f06292;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #ec407a;
+}
+
+/* Subscription Form Styles */
+.subscription-form {
+    margin-top: 20px;
+    background-color: #ffebee;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-form input {
+    margin: 5px;
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #e91e63;
+    border-radius: 8px;
+    font-size: 16px;
+}

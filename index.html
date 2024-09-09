@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator - Discover Your Compatibility!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Advertisement Banner (Top) -->
+    <div class="ad-banner" id="top-ad">
+        <p>Advertisement</p>
+    </div>
+
+    <div class="container">
+        <h1>💖 Love Calculator 💖</h1>
+        <p>Calculate your love compatibility and explore premium insights!</p>
+        <div class="input-container">
+            <input type="text" id="name1" placeholder="Your Name">
+            <input type="text" id="name2" placeholder="Partner's Name">
+        </div>
+        <button onclick="calculateLove()">Calculate Love</button>
+
+        <!-- Result Container -->
+        <div id="result-container">
+            <p id="result"></p>
+            <div id="meter-container">
+                <div id="love-meter"></div>
+            </div>
+            <p id="message"></p>
+        </div>
+        <button id="reset" onclick="resetCalculator()">Try Again</button>
+
+        <!-- Premium Content Teaser -->
+        <div class="premium-content">
+            <h2>Unlock Premium Insights 🔓</h2>
+            <p>Get a detailed love compatibility report, relationship tips, and more! Subscribe now.</p>
+            <button class="subscribe-button">Subscribe Now</button>
+        </div>
+
+        <!-- Subscription Form -->
+        <div class="subscription-form">
+            <h3>Join Our Love Community 💌</h3>
+            <p>Subscribe to receive love quotes, relationship tips, and exclusive offers!</p>
+            <input type="email" id="email" placeholder="Your Email Address">
+            <button onclick="subscribe()">Subscribe</button>
+        </div>
+    </div>
+
+    <!-- Advertisement Banner (Bottom) -->
+    <div class="ad-banner" id="bottom-ad">
+        <!-- Placeholder for Bottom Advertisement -->
+        <p>Advertisement</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
